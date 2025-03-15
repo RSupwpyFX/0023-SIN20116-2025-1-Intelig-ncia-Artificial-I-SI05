@@ -83,7 +83,7 @@ function solve(startBoard) {
 }
 
 function isGoal(board) {
-    return board.toString() === "7,4,1,5,0,3,8,2,6";
+    return board.toString() === "1,2,3,4,5,6,7,8,0";
 }
 
 function heuristic(board) {
